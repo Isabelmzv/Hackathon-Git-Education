@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Doto</title>
+        <link rel="icon" type="image/png"  href="assets/img/favicon.png">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Dosis&family=Istok+Web&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <section class="containerHeader">
+                <div>
+                    <img src="assets/img/logo.png" alt="Logo-Doto" class="logo">
+                </div>
+                <div>
+                    <h1 class="título">Doto</h1>
+                    <h1 class="slogan">Vive el presente</h1>
+                </div>
+            </section>
+        </header>
+        <main>           
+            <section>
+                <div class="superior">
+                    <div class="dopamina">
+                        <h2>Dopamina</h2>
+                        <div class="frase">
+                            <h2>Aprende algo nuevo con frases en inglés</h2>
+                            <div class="containerFrase">
+                                <p id="frase">"Busca una frase para aprender"</p>
+                                <small id="autor"></small>
+                            </div>
+                            <button id="btnFrase">Frase</button>
+                        </div>
+                        <div class="queHacer">
+                            <h2>Completa tareas para obtener dopamina</h2>
+                            <div class="Lista">
+                                <form>
+                                    <input type="text" placeholder="Tareas de hoy">
+                                    <button class="btnAgregar" type="button">+</button>
+                                </form>
+                            </div>
+                            <div class="containerLista">
+                                <ul>
+                                </ul>
+                            </div>
+                            <div class="vacío">
+                                <p>No hay tareas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="endorfina">
+                            <h2>Endorfina</h2>
+                            <div class="música">
+                                <h2>Escucha música, ríe de un gif</h2>
+                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX8Uebhn9wzrS?utm_source=generator&theme=0" width="80%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>
+                            <div class="gif"> </div>
+                            <button id="btnGif">¡Quiero un gif!</button>
+                            <div id="gif"></div>
+                            <img/>      
+                    </div>             
+                </div>
+                <div class="oxitocina">
+                    <h2>Oxitocina</h2>
+                    <div class="pomodoro"></div>
+                        <h2>Pomodoro: en cada break socializa, ayuda a otros o acaricia a tu mascota</h2>
+                        <div id="pomodoro">
+                            <p id="concentración" class="label">Concentración:</p><p id="break" class="label">Break:</p><p id="ciclos" class="label">Ciclos:</p>
+                            <div id="timerC" class="timer">
+                                <p id="minC">25</p><p>:</p><p id="segC">00</p>
+                            </div>
+                            <p id="contador" class="timer">0</p>
+                            <div id="timerB" class="timer">
+                                <p id="minB">05</p><p>:</p><p id="segB">00</p>
+                            </div>
+                            <button id="empezar" class="btn">Empezar</button>
+                            <button id="pausa" class="btn">Pausa</button>
+                            <button id="reset" class="btn">Reset</button>
+                    </div>
+                </div>
+                <div class="serotonina">
+                |<div class="postit">
+                    <h2>Serotonina</h2><br><br>
+                    <h2>Agrega notas con las ideas del día y practica gratitud</h2>
+                    <div id="postit">
+                         <button class="btnNotas" type="button">+</button>
+                    </div>
+                </div>
+            </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <p>&copy; Diseño y desarrollo Doto | Copyright Doto | Todos los derechos reservados. </p>
+            </div>
+        </footer>
+    </body>
+</html>
+<script src="assets/js/main.js" defer></script>
+

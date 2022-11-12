@@ -1,0 +1,401 @@
+body{
+    font-family: 'Istok Web';
+    background-color:#CCFBFE;
+}
+h1{
+    font-family: 'Arima Madurai';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 6em;
+    line-height: 150%;
+    color: #9381FF;
+    justify-content: center;
+}
+h2{
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2em;
+    line-height: 150%;   
+    text-align: center;
+    color: #9381FF;
+}
+p{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #1982C4;
+}
+
+/*Header*/
+header{
+    height: 5%;
+    background-color: #F8F272;
+}
+.containerHeader{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:0.5em;
+}
+.logo{
+    max-height: 6.8em;
+    margin-left: 4em;
+}  
+
+.título{
+    margin-top: 2%;
+    font-size: 3em;
+    text-align: center;
+    border-bottom:solid #F0A6CA ;
+    border-width: 10px;
+    
+}
+
+.slogan{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 0;
+}
+
+/*Main*/
+.superior{
+  display: flex;
+}
+/*Dopamina*/
+.dopamina, .endorfina{
+  background-color: white;
+  margin: 2%;
+  border-radius: 2rem;
+  width: 50%;
+}
+    /*frase*/
+    .frase{
+      margin-top: 5%;
+    }
+    .containerFrase {
+      width: 50%;
+      padding: 30px 20px;
+      margin-left: 20%;   
+    }
+    #frase {
+      color:#1982C4;
+      text-align: center;
+    }
+    #autor {
+      float: right;
+      color: #888;
+      font-weight: bold;
+      font-style: italic;
+      margin-top: 10px;
+    }
+    
+    #btnFrase {
+      border:none;
+      padding: 10px 15px;
+      color: white;
+      background:#F0A6CA ;
+      cursor: pointer;
+      border-radius: 2em;
+      margin-left: 45%;  
+      margin-top: 2%;
+    }
+    
+    #btnFrase:hover {
+      background-color: #9ee2a4;
+    }
+    /*Que hacer*/
+    .queHacer {
+        margin:5%;
+        background-color: white;
+        padding: 30px;
+        border-radius: 2rem;
+        
+    }
+    .lista {
+       margin-left: auto;
+       margin-right: auto;
+       width: 100%;
+    }
+      
+    form {
+      display: flex;
+    }
+    input {
+      padding: 15px 10px;
+      outline: none;
+      border-color: #F0A6CA;
+      width: 400px;
+      margin-left: 20%;
+    }
+      
+    .containerLista {
+      background-color: white;
+      width: 100%;
+      color: darkslategray;
+      margin-top: 20px;
+    }
+      
+    ul {
+      padding: 0;
+    }
+      
+    li {
+      list-style: none;
+      background-color:#CCFBFE;
+      border-radius: 10px;
+      margin-top: 15px;
+      display:flex;
+    }
+      
+    li p {
+      margin: 0;
+      padding: 15px;
+      width: 100%;
+    }
+      
+    .btnBorrar {
+      margin-left: auto;
+      border: none;
+      background-color:#F0A6CA;
+      color: white;
+      font-weight: bold;
+      padding: 5px 10px;
+      outline: none;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      width: 10%;
+      font-size: 1.2em;
+    }
+      
+    .btnBorrar:hover{
+      background-color: #9ee2a4;
+    }
+
+      
+    .btnAgregar {
+      padding: 5px 15px;
+      border: none;
+      color: white;
+      font-family: fantasy;
+      background-color:#F0A6CA;
+      font-size: 1.4rem;
+      outline: none;
+    }
+     
+    .btnAgregar:hover{
+      background-color: #9ee2a4;
+    }
+
+      
+    .vacío {
+      color: #F7CABA;
+      margin-left: 40%;
+    }
+      
+
+/*Endrofina*/
+    /*Música*/
+    .música{
+      margin-top: 5%;
+    }
+    iframe{
+      margin-top: 5%;
+      margin-left: 10%;
+    }
+    /*Gif*/
+    .gif{
+      margin-top: 5%;
+    }
+    #btnGif{
+      border:none;
+      padding: 10px 15px;
+      color: white;
+      background:#F0A6CA;
+      cursor: pointer;
+      border-radius: 2em;
+      margin-left: 45%;  
+      margin-top: 2%;
+    }
+    #btnGif:hover{
+      background-color: #9ee2a4;
+    }
+
+    img { 
+      padding: 20px; 
+      height: auto;
+      width: auto;
+      margin-left: 27%;
+    }
+
+
+/*Oxitocina*/
+.oxitocina{
+  background-color: white;
+  margin: 2%;
+  border-radius: 2rem;
+  padding-bottom: 1%;
+}   
+    /*Pomodoro*/ 
+    .pomodoro{
+      margin-top: 2%;
+      margin-bottom: 2%;
+    } 
+    #pomodoro {
+      height: 150px;
+      width: 700px;
+      background-color: #F0A6CA;
+      border-radius: 2rem;
+      margin-left: 30%;
+      margin-top: 2%;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    }
+    #pomodoro p{
+      color: white;
+    }
+    .label {
+      align-self: center;
+      justify-self: center;
+      font-size: 30px;
+      color:white;
+      
+    }
+      
+    #concentración {
+      grid-area: 1 / 2 / 1 / 2;
+    }
+    #break {
+      grid-area: 1 / 4 / 1 / 4;
+    }
+    #ciclos {
+      grid-area: 1 / 3 / 1 / 3;
+    }
+    
+    .timer {
+      display: flex;
+      align-self: center;
+      justify-self: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    
+    #contador {
+      grid-area: 2 / 3 / 2 / 3;
+      color: white;
+    }
+    
+    #timerC {
+      grid-area: 2 / 2 / 2 / 2;
+    }
+    
+    #timerB {
+      grid-area: 2 / 4 / 2 / 4;
+    }
+    
+    .btn {
+      align-self: center;
+      justify-self: center;
+      width: 100px;
+      height: 30px;
+      font-size: 20px;
+      border:none;
+      color: white;
+      background:#F7C5B7;
+      cursor: pointer;
+      border-radius: 2em;
+    }
+    .btn:hover{
+      background-color: #9ee2a4;
+    }
+    
+    #empezar {
+      grid-area: 3 / 2 / 3 / 2;
+    }
+    
+    #reset {
+      grid-area: 3 / 3 / 3 / 3;
+    }
+    
+    #pausa {
+      grid-area: 3 / 4 / 3 / 4;
+    }
+
+
+/*Serotonina*/
+    /*Post it*/
+    .serotonina{
+      padding-bottom: 2%;
+      margin-top: 1%;
+    }
+    .postit{
+      margin-top: 1%;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-bottom: 1.5%;
+     
+      height: auto;
+      background-color: white;
+      border-radius: 2rem;
+    }
+    #postit{
+      display: grid;
+      grid-template-columns: repeat(auto-fill,200px);
+      padding: 24px;
+      gap: 24px;
+    }
+    .notas{
+      height: 200px;
+      box-sizing: border-box;
+      padding: 16px;
+      border: none;
+      outline: none;
+      background-color: #F7C5B7;
+      border-radius: 2rem;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+      resize: none;
+      font-family: sans-serif;
+      font-size: 16px;
+
+    }
+
+    .btnNotas{
+      height: 200px;
+      border: none;
+      outline: none;
+      background:#F0A6CA;
+      border-radius: 2rem;
+      font-size: 120px;
+      color: white;
+      cursor: pointer;
+    }
+    .btnNotas:hover{
+      background-color: #9ee2a4;
+    }
+
+
+/*Footer*/
+.footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width: 100vw;
+    height: 6vh;
+    background-color: #F8F272;
+    box-shadow: 0em 0.5em 3em 0.5em rgba(0, 0, 0, 0.25);
+    text-align: center;
+  }
+.footer p{
+    padding-top: 1.2em;
+    color: #7353BA;
+    font-size: 1em;
+
+}
+
+/*Tablet*/
+@media (max-width: 992px) {
+    #main {
+      margin-top: 30px;
+    }
+  }
